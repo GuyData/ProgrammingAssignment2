@@ -43,7 +43,7 @@ makeCacheMatrix <- function(x = matrix()) {
 
 ## cacheSolve takes an object returned by makeCacheMatrix above plus any
 ## additional arguments to be passed to the solve function. It will return the
-## cached value of the inverted matrix or use the solve function to calculate it
+## cached value of the inverted matrix or use the solve function to calculate it.
 ## This function assumes that the matrix supplied is always invertible.
 ## Since this function is specifically to calculate the inverse of a matrix,
 ## the b argument of solve is intentionally missing so it will default to an
